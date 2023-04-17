@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    
+}
+
+.container {
+    position: relative;
+    display: grid;
+    grid-template-rows: min-content calc(100vh - 15rem) repeat(6, min-content);
+    grid-template-columns: [full-start] minmax(3rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 18rem) [col-end]) [center-end] minmax(3rem, 1fr) [full-end];
+}

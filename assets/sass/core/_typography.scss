@@ -1,0 +1,49 @@
+.subtitle {
+    color: $color-primary;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.9rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+
+
+}
+
+.title {
+
+    &__primary {
+        font-size: 9.6rem;
+        font-weight: 900;
+        line-height: 11.6rem;
+        color: $color-text-primary;
+        padding: 2.4rem 0 3.2rem;
+
+        @include respond(tablet-screen) {
+            font-size: 4.8rem;
+            line-height: 5.8rem;
+        }
+    }
+
+    &__secondary {
+        font-size: 5.6rem;
+        font-weight: 900;
+        line-height: 6.7rem;
+    }
+
+    &__normal {
+        font-size: 4rem;
+        font-weight: 500;
+        line-height: 4.8rem;
+        padding-bottom: 2.4rem;
+    }
+
+}
+
+p {
+    color: $color-text-light;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 400;
+
+
+}

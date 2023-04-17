@@ -1,0 +1,36 @@
+.signup {
+    grid-column: center-start / center-end;
+    padding: 12rem 0;
+    margin: 12rem 0;
+    border-top: 1px solid $color-tertiary;
+    border-bottom: 1px solid $color-tertiary;
+
+    @include respond(tablet-screen) {
+        grid-column: full-start / full-end;
+        padding-left: 3rem;
+    }
+
+    display: flex;
+    align-items: center;
+
+    @include respond(tablet-screen) {
+        overflow: hidden;
+    }
+
+    &__content {
+        width: 50%;
+
+        @include respond(tablet-screen) {
+            width: 70%;
+        }
+    }
+
+    &__image {
+        width: 50%;
+        text-align: center;
+
+        @include respond(tablet-screen) {
+            overflow: hidden;
+        }
+    }
+}

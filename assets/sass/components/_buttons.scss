@@ -1,0 +1,52 @@
+.btn {
+    &__primary {
+            position: relative;
+            border-radius: 100rem;
+            padding: 1rem;
+            font-size: 2rem;
+            padding: 2.2rem 5.6rem;
+            line-height: 3rem;
+            color: $color-text-primary;
+            border: solid 3px transparent;
+            background: linear-gradient(to right, $color-primary, $color-secondary);
+            text-transform: capitalize;
+            z-index: 1;
+            border: none;
+            outline: none;
+            margin-top: 4rem;
+            cursor: pointer;
+            
+            
+
+            &:hover {
+                
+                &::before {
+                    background: linear-gradient(to right, $color-primary, $color-secondary);
+                    
+                }
+
+                color: #fff;
+
+                
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: .3rem;
+                right: .3rem;
+                bottom: .3rem;
+                left: .3rem;
+                background: white;
+                border-radius: 100rem;
+                color: #fff;
+                z-index: -1;
+                
+            }
+
+            &::after {
+                content: attr(data);
+            }
+          
+    }
+}

@@ -1,0 +1,18 @@
+.banner {
+    grid-column: center-start / center-end;
+    background-image: linear-gradient(to right, #ff3998, #ff4183, #ff4e6f, #ff5d5d, #ff6c4d, #fd803b, #f5932a, #eaa71c, #d1c121, #b1d841, #86ed6c, #39ffa0);
+    border-radius: 1.6rem;
+    padding: 15.4rem 6.4rem 6.4rem;
+
+    @include respond(tablet-screen) {
+        grid-column: full-start / full-end;
+        border-radius: 0;
+        padding: 15.4rem 3rem 6.4rem;
+    }
+
+    p {
+        color: $color-text-primary;
+    }
+
+    
+}
