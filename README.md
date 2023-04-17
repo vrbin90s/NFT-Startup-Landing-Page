@@ -1,4 +1,4 @@
-## NFT-Startup-Landing-Page
+## NFT Startup - Landing Page
 
 This project involved the creation of a web design utilizing key web development tools such as HTML and CSS. The primary objective was to transform a design from Figma into a functional website. This was achieved through the skillful application of advanced web development techniques, including CSS Grids, Flex Box, and SASS. The end result is a sophisticated website that showcases a mastery of modern web development practices.
 
